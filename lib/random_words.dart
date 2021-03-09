@@ -72,9 +72,9 @@ class RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
       return Scaffold(
         appBar: AppBar(
-            title: Center(
-            child: Text("Word Generator")
-            ),
+            leading: Icon((Icons.wysiwyg),
+                ),
+            title: Text("Word Generator"),
             actions: [
               IconButton(
             icon: Icon(Icons.list),
